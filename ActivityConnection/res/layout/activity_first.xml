@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/widget34"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="GONDERİCİ"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/editText1"
+    android:layout_width="106dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/widget34"
+    android:layout_marginLeft="18dp"
+    android:layout_toRightOf="@+id/textView1"
+    android:ems="10"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editText1"
+    android:layout_marginTop="24dp"
+    android:text="KULLANİCİ TEL NUMARASİ:"
+    android:textStyle="bold"
+    android:typeface="serif" />
+
+<EditText
+    android:id="@+id/editText2"
+    android:layout_width="105dp"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView2"
+    android:layout_alignParentRight="true"
+    android:ems="10"
+    android:inputType="number"
+    android:textSize="18sp" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView2"
+    android:layout_marginTop="56dp"
+    android:layout_toLeftOf="@+id/editText1"
+    android:text="GONDER" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/editText1"
+    android:layout_alignParentLeft="true"
+    android:text="KULLANİCİ İSMİ:"
+    android:textStyle="bold"
+    android:typeface="serif" />
+
+</RelativeLayout>

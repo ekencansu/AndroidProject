@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="ALİCİ"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/textView4"
+    android:layout_marginTop="18dp"
+    android:text="ALİNAN BİLGİ:"
+     android:textColor="@color/text_color"
+    android:textStyle="bold"
+    android:typeface="serif" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="76dp"
+    android:text="GERİ DON"
+    android:textStyle="bold" />
+
+</RelativeLayout>
