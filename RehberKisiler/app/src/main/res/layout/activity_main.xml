@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cansu.rehberkisiler.MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="İsim ve Soyisim Girin"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/eIsim"
+            android:text="Telefon Numarası Girin"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/eIsim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:ems="10"
+            android:hint="İsim ve Soyisim Giriniz..."
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eTelefon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:ems="10"
+            android:hint="Telefon Numarası Giriniz.."
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/bEkle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eTelefon"
+            android:layout_marginEnd="11dp"
+            android:layout_marginTop="24dp"
+            android:layout_toStartOf="@+id/bSil"
+            android:text="Kişi Ekle" />
+
+        <EditText
+            android:id="@+id/eGetir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="65dp"
+            android:ems="10"
+            android:hint="İsim Giriniz..."
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bSil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="Kişiyi Sil" />
+
+        <Button
+            android:id="@+id/bGuncelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/bSil"
+            android:layout_toEndOf="@+id/bEkle"
+            android:layout_toRightOf="@+id/bEkle"
+            android:layout_weight="1"
+            android:text="Kaydı Güncelle" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/eGetir"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Kişiyi Getir"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/bGetir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bEkle"
+            android:layout_alignTop="@+id/bEkle"
+            android:layout_toEndOf="@+id/textView"
+            android:text="Kişileri Getir" />
+
+        <Button
+            android:id="@+id/bKisiGetir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/bSil"
+            android:text="İsmi Getir" />
+    </RelativeLayout>
+
+
