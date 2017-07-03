@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TCKimlik</string>
+
+    <string name="tckn_title">TC Kimlik No</string>
+    <string name="name">Adınız</string>
+    <string name="surname">Soyadınız</string>
+    <string name="year">Doğum yılınız ör.1993</string>
+    <string name="query">Sorgula</string>
+
+</resources>
