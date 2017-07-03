@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent" android:background="#3023AE"
+    android:layout_height="fill_parent"  tools:context=".MainActivity">
+
+
+
+
+    <VideoView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/view_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+
+
+    <FrameLayout
+        android:background="#ffdab9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.iangclifton.android.floatlabel.FloatLabel
+                android:layout_marginTop="5dp"
+                android:id="@+id/text_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Name" />
+
+
+            <com.iangclifton.android.floatlabel.FloatLabel
+                android:layout_marginTop="5dp"
+                android:inputType ="textPassword"
+                android:id="@+id/text_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password" />
+
+            <Button
+                android:textColor="#fff"
+                android:background="@drawable/btn_select"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/btn_login" />
+
+        </LinearLayout>
+
+        <TextView
+            android:textSize="30sp"
+            android:textColor="#7b68ee"
+            android:text="USERLOGIN"
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>
