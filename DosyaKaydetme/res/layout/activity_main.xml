@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/button1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Kaydet"
+	android:layout_below="@+id/widget33"
+	android:layout_alignParentLeft="true" />
+
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="DosyayaKayitProgrami"
+	android:textStyle="bold"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/button1"
+    android:layout_marginTop="42dp"
+    android:text="Oku" />
+
+<EditText
+    android:id="@+id/editText2"
+    android:layout_width="253dp"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/button2"
+    android:layout_toRightOf="@+id/button2"
+    android:ems="10"
+    android:textSize="18sp" >
+
+    <requestFocus />
+</EditText>
+
+<EditText
+    android:id="@+id/editText1"
+    android:layout_width="245dp"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/button1"
+    android:layout_alignRight="@+id/editText2"
+    android:ems="10"
+    android:textSize="18sp" />
+
+</RelativeLayout>
