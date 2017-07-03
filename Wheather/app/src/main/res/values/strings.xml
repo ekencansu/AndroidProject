@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="butn_ilerle">Ä°lerle</string>
+    <string name="text_sehir_giriniz">LÃ¼tfen Hava Durumunu Ã–ÄŸrenmek Ä°stediÄŸiniz Bir Sehir Giriniz.</string>
+    <string name="sehir">Åehir:</string>
+    <string name="edittex_giris_yonetimi">abcÃ§defghijklmnoÃ¶pqrsÅŸtuÃ¼vwxyzABCÃ‡DEFGÄHIJKLMNOÃ–PQRSÅTUÃœVWXYZ</string>
+
+</resources>
