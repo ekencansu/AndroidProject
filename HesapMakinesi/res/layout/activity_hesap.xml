@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+	android:id="@+id/EditText1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="0dp"
+	android:layout_y="12dp" />
+<Button
+	android:id="@+id/btn9"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="9"
+	android:layout_x="14dp"
+	android:layout_y="81dp" />
+<Button
+	android:id="@+id/btn8"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="8"
+	android:layout_x="86dp"
+	android:layout_y="80dp" />
+<Button
+	android:id="@+id/btn7"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="7"
+	android:layout_x="158dp"
+	android:layout_y="78dp" />
+<Button
+	android:id="@+id/btn6"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="6"
+	android:layout_x="11dp"
+	android:layout_y="151dp" />
+<Button
+	android:id="@+id/btn5"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="5"
+	android:layout_x="86dp"
+	android:layout_y="146dp" />
+<Button
+	android:id="@+id/btn4"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="4"
+	android:layout_x="160dp"
+	android:layout_y="145dp" />
+<Button
+	android:id="@+id/btn3"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="3"
+	android:layout_x="14dp"
+	android:layout_y="224dp" />
+<Button
+	android:id="@+id/btn2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="2"
+	android:layout_x="86dp"
+	android:layout_y="219dp" />
+<Button
+	android:id="@+id/btn1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="1"
+	android:layout_x="161dp"
+	android:layout_y="216dp" />
+<Button
+	android:id="@+id/btn0"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="0"
+	android:layout_x="14dp"
+	android:layout_y="284dp" />
+<Button
+	android:id="@+id/topla"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="+"
+	android:layout_x="266dp"
+	android:layout_y="74dp" />
+<Button
+	android:id="@+id/cikar"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="-"
+	android:layout_x="265dp"
+	android:layout_y="139dp" />
+<Button
+	android:id="@+id/bol"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="/"
+	android:layout_x="268dp"
+	android:layout_y="199dp" />
+<Button
+	android:id="@+id/carp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="*"
+	android:layout_x="268dp"
+	android:layout_y="253dp" />
+<Button
+	android:id="@+id/sil"
+	android:layout_width="76dp"
+	android:layout_height="wrap_content"
+	android:text="Sil"
+	android:layout_x="179dp"
+	android:layout_y="361dp" />
+<Button
+	android:id="@+id/sifirla"
+	android:layout_width="117dp"
+	android:layout_height="wrap_content"
+	android:text="S&#305;f&#305;rla"
+	android:layout_x="14dp"
+	android:layout_y="362dp" />
+<Button
+	android:id="@+id/esit"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="="
+	android:layout_x="270dp"
+	android:layout_y="311dp" />
+</AbsoluteLayout>
