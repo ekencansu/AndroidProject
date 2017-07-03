@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView
+android:layout_height="30dip"
+android:layout_width="fill_parent"
+android:text="Konu"
+android:textSize="20dip"
+android:paddingLeft="10dip"
+android:textColor="@android:color/white"
+
+/>
+    
+<EditText
+android:id="@+id/konuText"
+android:layout_height="40dip"
+android:layout_width="fill_parent"
+android:paddingLeft="15dip"
+android:paddingTop="5dip"
+android:paddingRight="65dip"
+/>
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textSize="20dip"
+android:paddingLeft="10dip"
+android:text="İcerik"
+android:textColor="@android:color/white"
+/>
+<EditText
+android:id="@+id/icerikText"
+android:layout_width="fill_parent"
+android:gravity="top"
+android:paddingTop="15dip"
+android:paddingBottom="15dip"
+android:paddingRight="65dip"
+android:typeface="sans"
+android:paddingLeft="15dip" 
+android:layout_height="150dip"/>
+
+<Button android:id="@+id/opButton"
+android:textColor="@android:color/white"
+
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:text="Ekle"
+android:textSize="20dp" android:layout_gravity="right"
+ android:layout_marginRight="15dip" android:layout_marginTop="20dip"/>
+    
+
+</LinearLayout>
